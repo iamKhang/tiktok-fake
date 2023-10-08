@@ -4,7 +4,7 @@
 :root {
   --white: #fff;
   --primary: #fe2c55;
-  //Default Layout
+  //Default Layoutxxxxxxxxxxxx
   --default-layout-header-height: 60px;
   --default-layout-width: 1150px;
   --default-layout-horizontal-spacer: 24px;
@@ -21,8 +21,33 @@ html {
   font-size: 62.5%;
 }
 
+//Font emmbed
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/TikTokFont-Bold.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/TikTokFont-Regular.woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/TikTokFont-Semibold.woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: SofiaPro;
+  src: url('/assets/fonts/TikTokDisplayFont-Bold.woff2');
+  font-weight: 700;
+}
+
 body {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'ProximaNova', sans-serif;
   font-family: 'Karla', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
